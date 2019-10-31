@@ -1,0 +1,16 @@
+#beebotteのデータ
+TOKEN = "アクセストークン"
+HOSTNAME = "mqtt.beebotte.com"
+PORT = "ポート番号"
+ADDRESS = "beebotte上のチャンネル/リソース"
+CACERT = "mqtt.beebotte.com.pem"
+
+# WOLホストPCのデータ
+MACADDR = "MACアドレス"
+IPADDR = "IPアドレス"
+
+# slack webhock APIのURL
+SLACKURL = "slackAPIのURL"
+
+# wol用のメッセージ
+BOOTUP_WORD = "好きな言葉"
