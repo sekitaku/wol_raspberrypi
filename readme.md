@@ -3,6 +3,9 @@
 ラズベリーパイで実行することを想定した、beebotteでメッセージを受け取ったらLAN内のPCをWOLで起動するためのPythonスクリプト
 
 ## Description
+wol.pyはWOLを行う最低限のプログラム。wol_kai.pyはslackへの通知機能を追加したバージョン。
+
+
 1. ラズベリーパイ側でwol.pyを実行してbeebotteを監視
 2. 他の端末からbeebotteにHTTPリクエストでBOOTUP_WORDをPOSTする
 3. wolが実行され、LAN内のPCが起動する
