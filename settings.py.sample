@@ -1,16 +1,29 @@
 #beebotteのデータ
-TOKEN = "アクセストークン"
+TOKEN = "token_abcdefghijklmn" #アクセストークン
 HOSTNAME = "mqtt.beebotte.com"
-PORT = "ポート番号"
-ADDRESS = "beebotte上のチャンネル/リソース"
+PORT = 8883 #ポート番号
+ADDRESS = "aaa/bbb" #beebotte上のチャンネル/リソース
 CACERT = "mqtt.beebotte.com.pem"
 
 # WOLホストPCのデータ
-MACADDR = "MACアドレス"
-IPADDR = "IPアドレス"
+MACADDR = "00:00:00:AA:AA:AA" #MACアドレス
+IPADDR = "192.168.xxx.xxx" #IPアドレス
 
 # slack webhock APIのURL
-SLACKURL = "slackAPIのURL"
+SLACKURL = "https://hooks.slack.com/aaa/bbb/ccc" #slackAPIのURL
 
 # wol用のメッセージ
-BOOTUP_WORD = "好きな言葉"
+BOOTUP_WORD = "AAA" #起動用キーワード
+SLEEP_WORD = "BBB" #スリープ用キーワード
+SLEEP_LATER_WORD = "CCC" #後でスリープ用キーワード
+SHUTDOWN_WORD = "DDD" #シャットダウン用キーワード
+SHUTDOWN_LATER_WORD = "EEE" #後でシャットダウン用キーワード
+
+# ssh用のデータ
+PORT_SSH = 22 #SSHで使用するポート番号
+USER = 'user' #SSHで使用するユーザー名
+KEY_FILE = 'User/user/.ssh/id_rsa' #SSHの秘密鍵のPATH
+PASSPHRASE = 'password' #SSHの秘密鍵のパスフレーズ
+
+# ホストPCのpsshutdown.exeのPATH
+PSSD_PATH = r'C:\Users\user\Folder\PSTools\psshutdown.exe'
